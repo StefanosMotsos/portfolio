@@ -3,3 +3,10 @@ export type DropdownProps = {
     label: string
     addClasses?: string
 }
+
+export type LineProps = {
+    count?: number
+    highlight: number
+}
+
+export type ButtonProps = Omit<DropdownProps, 'addClasses'>

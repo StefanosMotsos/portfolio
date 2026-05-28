@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="flex items-center justify-center gap-16 fixed w-full bg-zinc-900/95 h-[55px]
-            border-b-2 border-zinc-800/90">
+            border-b-2 border-zinc-800/90 z-50">
                 <span className="text-stef-red text-sm ibm font-medium">SM</span>
                 <div className="flex items-center gap-2">
                     <div className="relative">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             Projects <ChevronDown size={14}/>
                         </button>
                         {isOpen && (
-                            <ul className='mt-2 absolute z-50 bg-zinc-900/95 text-center text-white w-[150px] rounded-md border border-zinc-700'>
+                            <ul className='mt-2 absolute bg-zinc-900/95 text-center text-white w-[150px] rounded-md border border-zinc-700'>
                                 <DropdownItem href="#csharp" label="C#" addClasses="border-b border-zinc-700 rounded-t-md" />
                                 <DropdownItem href="#java" label="Java" addClasses="border-b border-zinc-700" />
                                 <DropdownItem href="#mean" label="MEAN" addClasses="rounded-b-md"/>
