@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="flex items-center justify-center gap-16 fixed w-full bg-zinc-900/95 h-[55px]
+            <nav className="flex items-center justify-center gap-16 fixed w-full bg-zinc-900 h-[55px]
             border-b-2 border-zinc-800/90 z-50">
                 <span className="text-stef-red text-sm ibm font-medium">SM</span>
                 <div className="flex items-center gap-2">

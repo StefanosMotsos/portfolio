@@ -15,8 +15,8 @@ const Hero = () => {
                 </h1>
                 <span className={'text-stef-muted'}>Ready to build.</span>
                 <div className='flex items-center gap-1'>
-                    <LinkButton href={"#csharp"} label={"View Projects"}></LinkButton>
-                    <LinkButton href="#about" label={'About me'}></LinkButton>
+                    <LinkButton href={"#csharp"} label={"View Projects"} showArrow={true}></LinkButton>
+                    <LinkButton href="#about" label={'About me'} showArrow={true}></LinkButton>
                 </div>
                 <ScrollIndicator/>
             </section>

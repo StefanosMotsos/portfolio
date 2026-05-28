@@ -9,4 +9,9 @@ export type LineProps = {
     highlight: number
 }
 
-export type ButtonProps = Omit<DropdownProps, 'addClasses'>
+export type ButtonProps = {
+    href: string
+    label: string
+    newTab?: boolean
+    showArrow?: boolean
+}
