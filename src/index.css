@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+
+@theme {
+    --color-stef-red: #E03E3E;
+    --color-stef-muted: #888880;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.ibm {
+    font-family: 'IBM Plex Mono', monospace;
+}
