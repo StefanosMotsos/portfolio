@@ -1,5 +1,6 @@
 import LineNumbers from "../ui/LineNumbers.tsx";
 import LinkButton from "../ui/LinkButton.tsx";
+import ScrollIndicator from "../ui/ScrollIndicator.tsx";
 
 const Hero = () => {
     return (
@@ -17,6 +18,7 @@ const Hero = () => {
                     <LinkButton href={"#csharp"} label={"View Projects"}></LinkButton>
                     <LinkButton href="#about" label={'About me'}></LinkButton>
                 </div>
+                <ScrollIndicator/>
             </section>
         </>
     )
