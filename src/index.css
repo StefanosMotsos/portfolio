@@ -14,7 +14,7 @@ body {
 }
 
 .dot-bg {
-    background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(255,255,255,0.18) 1px, transparent 1px);
     background-size: 28px 28px;
 }
 
@@ -26,3 +26,29 @@ body {
 .bounce {
     animation: bounce-down 1.5s ease-in-out infinite;
 }
+
+.lang-csharp {
+    background-image:
+            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            linear-gradient(to bottom, #000000 0%, #12102a 35%, #16102e 100%);
+    background-size: 28px 28px, 100%;
+}
+.lang-csharp h2 {
+    color: #c4a0ff;
+}
+
+.lang-java {
+    background-image:
+            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            linear-gradient(to bottom, #16102e 0%, #1a1a0a 35%, #1c1c0a 100%);
+    background-size: 28px 28px, 100%;
+}
+.lang-java h2 { color: #eab308; }
+
+.lang-mean {
+    background-image:
+            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            linear-gradient(to bottom, #1c1c0a 0%, #0d1a0f 35%, #0a1f0d 100%);
+    background-size: 28px 28px, 100%;
+}
+.lang-mean h2 { color: #6dcf8e; }
