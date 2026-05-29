@@ -22,7 +22,7 @@ body {
 }
 
 .dot-bg {
-    background-image: radial-gradient(circle, rgba(255,255,255,0.18) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(255,255,255,0.13) 1px, transparent 1px);
     background-size: 28px 28px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .lang-csharp {
     background-image:
-            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px),
             linear-gradient(to bottom, #000000 0%, #12102a 35%, #16102e 100%);
     background-size: 28px 28px, 100%;
 }
@@ -47,7 +47,7 @@ body {
 
 .lang-java {
     background-image:
-            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px),
             linear-gradient(to bottom, #16102e 0%, #1a1a0a 35%, #1c1c0a 100%);
     background-size: 28px 28px, 100%;
 }
@@ -55,7 +55,7 @@ body {
 
 .lang-mean {
     background-image:
-            radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px),
+            radial-gradient(circle, rgba(255,255,255,0.10 ) 1px, transparent 1px),
             linear-gradient(to bottom, #1c1c0a 0%, #0d1a0f 35%, #0a1f0d 100%);
     background-size: 28px 28px, 100%;
 }
