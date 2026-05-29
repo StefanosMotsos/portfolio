@@ -11,9 +11,9 @@ const ProjectCard = (
                 <h3 className='text-white text-lg font-medium'>{title}</h3>
                 <p className="mb-4 text-sm text-stef-muted leading-relaxed">{description}</p>
                 <div className="flex items-center justify-start gap-3 text-stef-muted">
-                    {backend && <LinkButton href={"backend"} label={backendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1" />}
-                    {frontend && <LinkButton href={"frontend"} label={frontendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1" />}
-                    {live && <LinkButton href={"live"} label={"Live"} newTab={true} addClasses="text-xs px-2 py-1" />}
+                    {backend && <LinkButton href={backend} label={backendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1" />}
+                    {frontend && <LinkButton href={frontend} label={frontendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1" />}
+                    {live && <LinkButton href={live} label={"Live (Soon)"} newTab={true} addClasses="text-xs px-2 py-1" />}
                 </div>
             </div>
         </>

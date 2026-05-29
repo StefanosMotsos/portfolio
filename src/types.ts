@@ -25,6 +25,7 @@ export type LangSectionProps = {
     langName: string
     color: string
     stack: string[]
+    icons?: React.ElementType[]
     children?: React.ReactNode
 }
 
