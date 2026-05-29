@@ -2,6 +2,7 @@ export type DropdownProps = {
     href: string
     label: string
     addClasses?: string
+    onClick?: () => void;
 }
 
 export type LineProps = {
@@ -18,6 +19,7 @@ export type ButtonProps = {
 }
 
 export type LangSectionProps = {
+    id?: string;
     highlight: number
     langNumber: string
     langName: string

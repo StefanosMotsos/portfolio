@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <>
             <section>
-                <LangSection highlight={3} langNumber={"01"} langName={"C#"} color={"lang-csharp"}
+                <LangSection id="csharp" highlight={3} langNumber={"01"} langName={"C#"} color={"lang-csharp"}
                              stack={["2 Projects", "ASP NET", "React", "PostgreSQL"]}>
                     <ProjectCard title={"Car Rental Service"}
                                  description={"Junior developer in Athens. I did Coding Factory at AUEB, 8 months of daily coding, " +
@@ -22,7 +22,7 @@ const Projects = () => {
                     />
                 </LangSection>
 
-                <LangSection highlight={4} langNumber={"02"} langName={"Java"} color={"lang-java"}
+                <LangSection id="java" highlight={4} langNumber={"02"} langName={"Java"} color={"lang-java"}
                              stack={["2 Projects", "Spring Boot", "Angular", "MySQL"]}>
                     <ProjectCard title={"Sports Club Management"}
                                  description={"Junior developer in Athens. I did Coding Factory at AUEB, 8 months of daily coding, " +
@@ -39,7 +39,7 @@ const Projects = () => {
                     />
                 </LangSection>
 
-                <LangSection highlight={5} langNumber={"03"} langName={"MORE SOON"} color={"lang-mean"}
+                <LangSection id="mean" highlight={5} langNumber={"03"} langName={"MORE SOON"} color={"lang-mean"}
                              stack={["Multiple Projects", "MongoDB", "Express", "Angular", "Node","Python"]}>
                     {/*<ProjectCard title={"School App"}*/}
                     {/*             description={"Junior developer in Athens. I did Coding Factory at AUEB, 8 months of daily coding, " +*/}

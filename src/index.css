@@ -5,6 +5,14 @@
     --color-stef-muted: #888880;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 55px;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
 }

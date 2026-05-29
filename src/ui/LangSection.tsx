@@ -2,10 +2,10 @@ import LineNumbers from "./LineNumbers.tsx";
 import type {LangSectionProps} from "../types.ts";
 
 const LangSection = (
-    {highlight, langNumber, langName, color, stack, children} : LangSectionProps) => {
+    {id, highlight, langNumber, langName, color, stack, children} : LangSectionProps) => {
     return (
         <>
-            <section className={`flex flex-col items-center justify-center
+            <section id={id} className={`flex flex-col items-center justify-center
                 min-h-screen text-center gap-4 relative ${color}`}>
                 <LineNumbers highlight={highlight} />
                 <span className="ibm text-stef-red text-xs">{langNumber}</span>

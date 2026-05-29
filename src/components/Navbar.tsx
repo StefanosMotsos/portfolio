@@ -21,9 +21,9 @@ const Navbar = () => {
                         </button>
                         {isOpen && (
                             <ul className='mt-2 absolute bg-zinc-900/95 text-center text-white w-[150px] rounded-md border border-zinc-700'>
-                                <DropdownItem href="#csharp" label="C#" addClasses="border-b border-zinc-700 rounded-t-md" />
-                                <DropdownItem href="#java" label="Java" addClasses="border-b border-zinc-700" />
-                                <DropdownItem href="#mean" label="MEAN" addClasses="rounded-b-md"/>
+                                <DropdownItem href="#csharp" label="C#" addClasses="border-b border-zinc-700 rounded-t-md" onClick={() => setIsOpen(false)}/>
+                                <DropdownItem href="#java" label="Java" addClasses="border-b border-zinc-700" onClick={() => setIsOpen(false)} />
+                                <DropdownItem href="#mean" label="MEAN" addClasses="rounded-b-md" onClick={() => setIsOpen(false)}/>
                             </ul>
                         )}
                     </div>

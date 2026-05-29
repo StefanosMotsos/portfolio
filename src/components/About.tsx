@@ -4,7 +4,7 @@ import LinkButton from "../ui/LinkButton.tsx";
 const About = () => {
     return (
         <>
-            <section className='flex flex-col items-center justify-center
+            <section id="about" className='flex flex-col items-center justify-center
                 dot-bg bg-black relative min-h-screen gap-5'>
                 <LineNumbers highlight={2} />
                 <h2 className='text-stef-red text-4xl font-medium ibm'>ABOUT</h2>
