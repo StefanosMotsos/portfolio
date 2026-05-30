@@ -5,7 +5,7 @@ import ScrollIndicator from "../ui/ScrollIndicator.tsx";
 const Hero = () => {
     return (
         <>
-            <section className="flex flex-col items-center justify-center relative min-h-screen
+            <section id="hero" className="flex flex-col items-center justify-center relative min-h-screen
             pt-[55px] gap-5 pb-20 dot-bg bg-black text-center text-white">
                 <LineNumbers highlight={1}/>
                 <span className='text-stef-red ibm'>JUNIOR FULL-STACK DEVELOPER</span>
