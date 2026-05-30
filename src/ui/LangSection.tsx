@@ -30,7 +30,7 @@ const LangSection = (
             <LineNumbers highlight={highlight} />
 
             {icons && (
-                <div className={`absolute right-6 top-1/2 -translate-y-1/2 flex flex-col gap-5
+                <div className={`absolute right-6 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-5
                     transition-opacity duration-500
                     ${inView ? "opacity-20" : "opacity-5"}`}>
                     {icons.map((Icon, i) => (

@@ -2,7 +2,7 @@ import type {ElementType} from "react";
 import {
     AngularOriginalIcon,
     DockerOriginalIcon,
-    DotNetOriginalIcon,
+    DotnetcoreOriginalIcon,
     MysqlOriginalIcon,
     PostgresqlOriginalIcon,
     ReactOriginalIcon,
@@ -38,7 +38,7 @@ export const langData: LangData[] = [
         langName: "C#",
         color: "lang-csharp",
         stack: ["2 Projects", "ASP.NET Core", "React", "PostgreSQL", "SQL Server", "Docker"],
-        icons: [DotNetOriginalIcon, ReactOriginalIcon, PostgresqlOriginalIcon, DockerOriginalIcon],
+        icons: [DotnetcoreOriginalIcon, ReactOriginalIcon, PostgresqlOriginalIcon, DockerOriginalIcon],
         projects: [
             {
                 title: "Car Rental Service - Coding Factory AUEB Final Project",
