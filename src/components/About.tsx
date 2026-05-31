@@ -16,7 +16,7 @@ const About = () => {
                     <LinkButton href={"https://github.com/StefanosMotsos"} label={'Github'} newTab={true} />
                     <LinkButton href={"https://www.linkedin.com/in/stefanos-motsos/"} label={'LinkedIn'} newTab={true} />
                     <LinkButton href={"mailto:stefanosmotsos01@gmail.com"} label={'stefanosmotsos01@gmail.com'} />
-                    <LinkButton href={"/portfolio/Stefanos_Motsos_CV.docx"} label={"View CV"} newTab={true} />
+                    <LinkButton href={"/portfolio/Stefanos_Motsos_CV.pdf"} label={"View CV"} newTab={true} />
                 </div>
             </section>
         </>
