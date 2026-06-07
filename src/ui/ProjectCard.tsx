@@ -13,7 +13,7 @@ const ProjectCard = (
                 <div className="flex items-center justify-start gap-3 text-stef-muted">
                     {backend && <LinkButton href={backend} label={backendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1 flex-wrap gap-2" />}
                     {frontend && <LinkButton href={frontend} label={frontendLabel ?? "Github"} newTab={true} addClasses="text-xs px-2 py-1 flex-wrap gap-2" />}
-                    {live && <LinkButton href={live} label={"Live (Soon)"} newTab={true} addClasses="text-xs px-2 py-1 flex-wrap gap-2" />}
+                    {live && <LinkButton href={live} label={"Live App"} newTab={true} addClasses="text-xs px-2 py-1 flex-wrap gap-2" />}
                 </div>
             </div>
         </>

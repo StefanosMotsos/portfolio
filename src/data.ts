@@ -47,9 +47,9 @@ export const langData: LangData[] = [
                     "EF Core migrations, Serilog logging, Swagger documentation, xUnit testing, and Docker Compose setup with PostgreSQL.",
                 backend: "https://github.com/StefanosMotsos/car-rental-api",
                 backendLabel: "C# Repo",
-                frontend: "frontend",
-                frontendLabel: "React Repo (Soon)",
-                live: "vercel"
+                frontend: "https://github.com/StefanosMotsos/car-rental-api",
+                frontendLabel: "React Repo",
+                live: "https://motsos-car-rentals.vercel.app/"
             },
             {
                 title: "SSR Clinic Management",
