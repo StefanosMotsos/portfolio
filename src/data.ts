@@ -78,8 +78,8 @@ export const langData: LangData[] = [
                     "Also available in a PostgreSQL variant.",
                 backend: "https://github.com/StefanosMotsos/sports-club-api",
                 backendLabel: "Java Repo",
-                frontend: "frontend",
-                frontendLabel: "Angular Repo (Soon)"
+                frontend: "https://github.com/StefanosMotsos/sport-club-ui",
+                frontendLabel: "Angular Repo"
             },
             {
                 title: "Library MVC App",
